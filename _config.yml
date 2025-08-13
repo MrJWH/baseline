@@ -4,7 +4,7 @@
 title: "M365 Security Baseline"
 description: "Documentation of Microsoft 365 security baseline policies and implementation phases."
 baseurl: ""           # leave blank unless using a subfolder
-url: "https://<yourusername>.github.io/m365-security-baseline"  # your GitHub Pages URL
+url: "https://github.com/MrJWH/baseline"  # your GitHub Pages URL
 theme: minima          # simple default Jekyll theme
 markdown: kramdown
 permalink: pretty      # nicer URLs, e.g., /planning/overview/
