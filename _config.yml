@@ -27,7 +27,7 @@ nav:
 # Enable GitHub Pages features like relative links
 github:
   is_project_page: true
-  repository_url: "https://github.com/<yourusername>/m365-security-baseline"
+  repository_url: "https://github.com/MrJWH/baseline"
 
 # --- Plugins ---
 plugins:
