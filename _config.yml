@@ -1,3 +1,50 @@
-title: M365 Security Baseline
-theme: minima
+# _config.yml
+
+# --- Site Settings ---
+title: "M365 Security Baseline"
+description: "Documentation of Microsoft 365 security baseline policies and implementation phases."
+baseurl: ""           # leave blank unless using a subfolder
+url: "https://<yourusername>.github.io/m365-security-baseline"  # your GitHub Pages URL
+theme: minima          # simple default Jekyll theme
 markdown: kramdown
+permalink: pretty      # nicer URLs, e.g., /planning/overview/
+
+# --- Navigation ---
+# Use this to define sidebar or top navigation links
+nav:
+  - title: Home
+    url: /
+  - title: Planning
+    url: /01-planning/overview.html
+  - title: Implementation
+    url: /02-implementation/overview.html
+  - title: Monitoring
+    url: /03-monitoring/overview.html
+  - title: References
+    url: /references.html
+
+# --- Optional Settings ---
+# Enable GitHub Pages features like relative links
+github:
+  is_project_page: true
+  repository_url: "https://github.com/<yourusername>/m365-security-baseline"
+
+# --- Plugins ---
+plugins:
+  - jekyll-feed     # optional, generates RSS feed
+  - jekyll-seo-tag  # optional, better SEO metadata
+
+# --- Defaults ---
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+      author: "Your Name"
+
+# --- Theme Customizations ---
+minima:
+  header_pages:
+    - index.md
